@@ -11,6 +11,10 @@ frutas = list(('manzana','pera','fresa'))
 print(frutas)
 frutas[2]='piña'
 print(frutas)
+frutas.append('coco')
+frutas.append('patilla')
+frutas.append((4,5,2,9,8))
+print(frutas)
 
 for i in frutas:
     print(i)
